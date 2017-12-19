@@ -14,17 +14,6 @@
   				<i class="fa fa-home"></i>
 	  			<span>about</span>
   			</router-link>
-  		</ul>
-  	</div>
-  	<router-view name="slider"></router-view>
-    <router-view class="center"></router-view>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'app',
-  data () {
     return {
       index: '/home'
     }

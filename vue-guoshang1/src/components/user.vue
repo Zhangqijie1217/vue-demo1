@@ -73,7 +73,7 @@
           let id = this.$route.params.userId
           if (id) {
             this.userInfo = this.userlist.filter((item) => {
-              return item.id == id
+              return item.id === id
             })[0]
           } else {
             this.userInfo = {}
